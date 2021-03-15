@@ -1,1 +1,1 @@
-require 'segment/analytics'
+require 'twilio_segment/analytics'

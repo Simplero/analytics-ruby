@@ -1,9 +1,9 @@
-require 'segment/analytics/defaults'
+require 'twilio_segment/analytics/defaults'
 
-module Segment
+module TwilioSegment
   class Analytics
     class BackoffPolicy
-      include Segment::Analytics::Defaults::BackoffPolicy
+      include TwilioSegment::Analytics::Defaults::BackoffPolicy
 
       # @param [Hash] opts
       # @option opts [Numeric] :min_timeout_ms The minimum backoff timeout

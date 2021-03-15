@@ -4,13 +4,13 @@ SimpleCov.start
 require 'codecov'
 SimpleCov.formatter = SimpleCov::Formatter::Codecov
 
-require 'segment/analytics'
+require 'twilio_segment/analytics'
 require 'active_support/time'
 
 # Setting timezone for ActiveSupport::TimeWithZone to UTC
 Time.zone = 'UTC'
 
-module Segment
+module TwilioSegment
   class Analytics
     WRITE_KEY = 'testsecret'
 

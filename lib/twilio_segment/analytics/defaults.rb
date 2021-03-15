@@ -1,4 +1,4 @@
-module Segment
+module TwilioSegment
   class Analytics
     module Defaults
       module Request

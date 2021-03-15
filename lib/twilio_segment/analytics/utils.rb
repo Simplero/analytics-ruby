@@ -1,6 +1,6 @@
 require 'securerandom'
 
-module Segment
+module TwilioSegment
   class Analytics
     module Utils
       extend self

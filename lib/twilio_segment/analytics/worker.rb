@@ -1,14 +1,14 @@
-require 'segment/analytics/defaults'
-require 'segment/analytics/message_batch'
-require 'segment/analytics/transport'
-require 'segment/analytics/utils'
+require 'twilio_segment/analytics/defaults'
+require 'twilio_segment/analytics/message_batch'
+require 'twilio_segment/analytics/transport'
+require 'twilio_segment/analytics/utils'
 
-module Segment
+module TwilioSegment
   class Analytics
     class Worker
-      include Segment::Analytics::Utils
-      include Segment::Analytics::Defaults
-      include Segment::Analytics::Logging
+      include TwilioSegment::Analytics::Utils
+      include TwilioSegment::Analytics::Defaults
+      include TwilioSegment::Analytics::Logging
 
       # public: Creates a new worker
       #

@@ -1,16 +1,16 @@
 require 'thread'
 require 'time'
 
-require 'segment/analytics/defaults'
-require 'segment/analytics/logging'
-require 'segment/analytics/utils'
-require 'segment/analytics/worker'
+require 'twilio_segment/analytics/defaults'
+require 'twilio_segment/analytics/logging'
+require 'twilio_segment/analytics/utils'
+require 'twilio_segment/analytics/worker'
 
-module Segment
+module TwilioSegment
   class Analytics
     class Client
-      include Segment::Analytics::Utils
-      include Segment::Analytics::Logging
+      include TwilioSegment::Analytics::Utils
+      include TwilioSegment::Analytics::Logging
 
       # @param [Hash] opts
       # @option opts [String] :write_key Your project's write_key
